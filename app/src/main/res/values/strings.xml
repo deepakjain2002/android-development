@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">android development login page</string>
+
+    <string-array name="contact_name">
+
+        <item>John</item>
+        <item>Sim</item>
+        <item>Jenny</item>
+        <item>Albert</item>
+        <item>Joseph</item>
+        <item>Robin</item>
+        <item>Brain</item>
+        <item>Sophia</item>
+        <item>Amelia</item>
+        <item>Sara</item>
+
+    </string-array>
+
+    <string-array name="numbers">
+
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+        <item>12345678</item>
+
+    </string-array>
 </resources>

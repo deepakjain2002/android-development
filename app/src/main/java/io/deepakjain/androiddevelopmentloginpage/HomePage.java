@@ -30,11 +30,19 @@ public class HomePage extends AppCompatActivity {
 
         submit = findViewById(R.id.submit);
 
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                 if(userEmail.getText().toString().equals("android") && userPassword.getText().toString().equals("12345")){
+                 if(userEmail.getText().toString().equals("Deepak") && userPassword.getText().toString().equals("12345")){
+
+                     String str = userEmail.getText().toString();
+
                      Intent intent = new Intent(HomePage.this, HomeScreen.class);
+
+                     intent.putExtra("message_key",str);
+
                      startActivity(intent);
                  }
                  else
